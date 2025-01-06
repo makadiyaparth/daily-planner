@@ -6,7 +6,6 @@ import {
   SidebarGroup,
   SidebarGroupContent,
   SidebarGroupLabel,
-  SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
@@ -52,7 +51,6 @@ const trackers = [
 export function AppSidebar() {
   return (
     <Sidebar collapsible='icon'>
-        <SidebarHeader>Aapp</SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupContent>
